@@ -28,7 +28,7 @@ jQuery(document).ready(function( $ ) {
 
   // Real view height for mobile devices
   if (window.matchMedia("(max-width: 767px)").matches) {
-    $('#intro').css({ height: $(window).height() });
+    $('#accueil').css({ height: $(window).height() });
   }
 
   // Initiate the wowjs animation library
