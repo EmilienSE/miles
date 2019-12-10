@@ -304,7 +304,7 @@ td[class="spechide"]
   //=========
    
   //=====Création du header de l'e-mail.
-  $header = "From: \"".strtoupper($nom)." \"<contact@esechilariu.fr>".$passage_ligne;
+  $header = "From: \"".strtoupper($nom)." \"<contact@milesclipmaker.fr>".$passage_ligne;
   $header.= "Reply-to: \"".strtoupper($nom)." \"<".$email.">".$passage_ligne;
   $header.= "MIME-Version: 1.0".$passage_ligne;
   $header.= "Content-Type: multipart/mixed;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
