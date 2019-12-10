@@ -1324,8 +1324,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #ED1B24;
-  border: 1px solid #ED1B24;
+  color: green;
+  border: 1px solid green;
   display: none;
   text-align: center;
   padding: 15px;

@@ -2,7 +2,6 @@
 
 header("Content-Type: text/html; charset=utf-8");
 
-//var_dump($_POST);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -24,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   //=====Déclaration des messages au format texte et au format HTML.
   $message_txt  = 'Bonjour,'."\r\n\r\n";
-  $message_txt .= 'Vous avez une nouvelle demande de contact de la part de '.strtoupper($nom).', à propos de '.$object.'.'."\r\n\r\n";
+  $message_txt .= 'Vous avez une nouvelle demande de contact de la part de '.strtoupper($nom).', à propos de '.$subject.'.'."\r\n\r\n";
   $message_txt .= 'Voici sa demande :'."\r\n";
   $message_txt .= ' '."\r\n";
   $message_txt .= $commentaire."\r\n";
@@ -305,7 +304,7 @@ td[class="spechide"]
   //=========
    
   //=====Création du header de l'e-mail.
-  $header = "From: \"".strtoupper($nom)." \"<".$email.">".$passage_ligne;
+  $header = "From: \"".strtoupper($nom)." \"<contact@esechilariu.fr>".$passage_ligne;
   $header.= "Reply-to: \"".strtoupper($nom)." \"<".$email.">".$passage_ligne;
   $header.= "MIME-Version: 1.0".$passage_ligne;
   $header.= "Content-Type: multipart/mixed;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
@@ -346,14 +345,14 @@ td[class="spechide"]
     } else {
         // Set a 500 (internal server error) response code.
         http_response_code(500);
-        echo "Une erreur est survenue, réessayez plus tard.";
+        echo "Une erreur est survenue, réessayez plus tard. (500)";
     }
    
   //==========
 } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "Une erreur est survenue, réessayez plus tard.";
+        echo "Une erreur est survenue, réessayez plus tard. (403)";
 }
 
 
