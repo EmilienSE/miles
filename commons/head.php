@@ -19,6 +19,8 @@
 <meta itemprop="name" content="MILES Clipmaker"/>
 <meta itemprop="url" content="https://milesclipmaker.fr/"/>
 
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154331499-1"></script>
 <script>
@@ -61,7 +63,8 @@
   "email" : "contact@milesclipmaker.fr", 
   "sameAs" : [
    "https://www.facebook.com/milesclipmaker",
-   "https://www.instagram.com/milesclipmaker"
+   "https://www.instagram.com/milesclipmaker",
+   "https://www.linkedin.com/company/miles-clipmaker"
   ],
   "address" : {
     "@type" : "PostalAddress",
