@@ -49,3 +49,27 @@
 
 <!-- Main Stylesheet File -->
 <link href="css/style.min.css" rel="stylesheet">
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "MILES Clipmaker",
+  "image" : "",
+  "telephone" : "+33 6 11 31 02 22",
+  "email" : "contact@milesclipmaker.fr", 
+  "sameAs" : [
+   "https://www.facebook.com/milesclipmaker",
+   "https://www.instagram.com/milesclipmaker"
+  ],
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "21C Quai Gambetta",
+    "addressLocality" : "Angers",
+    "addressCountry" : "France",
+    "postalCode" : "49100"
+  },
+  "url" : "https://milesclipmaker.fr/"
+}
+</script>

@@ -13,23 +13,3 @@
 
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
-
-<script type="application/ld+json">
-{
- "@context" : "http://schema.org",
- "@type" : "Organization",
- "name" : "MILES Clipmaker",
- "url" : "https://milesclipmaker.fr/",
- "sameAs" : [
-   "https://www.facebook.com/milesclipmaker",
-   "https://www.instagram.com/milesclipmaker"
-  ],
- "address": {
-   "@type": "PostalAddress",
-   "streetAddress": "21 Quai Gambetta",
-   "postalCode": "49100",
-   "city": "Angers"
-   "addressCountry": "France"
- }
-}
-</script>
