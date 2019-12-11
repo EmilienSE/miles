@@ -16,9 +16,9 @@
       </div>
       <div class="col-lg-6">
         <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Forfait basique</h5>
-            <h6 class="card-price text-center">500€</h6>
+          <div class="card-body" itemscope itemtype="http://schema.org/Offer">
+            <h5 class="card-title text-muted text-uppercase text-center" itemprop="name">Forfait basique</h5>
+            <h6 class="card-price text-center" itemprop="price">500€</h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa fa-check"></i></span>Prises de vues / Cadrage</li>

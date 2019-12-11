@@ -33,6 +33,12 @@
             <strong>Téléphone:</strong> +33 6 11 31 02 22<br>
             <strong>Email:</strong> contact@milesclipmaker.fr<br>
             <strong>SIRET:</strong> 879 142 677 00019<br>
+            <meta name="og:street-address" content="21C Quai Gambetta"/>
+            <meta name="og:postal-code" content="49100"/>
+            <meta name="og:locality" content="Angers"/>
+            <meta name="og:country-name" content="France"/>
+            <meta name="og:email" content="contact@milesclipmaker.fr"/>
+            <meta name="og:phone_number" content="+33-6-11-31-02-22"/>
           </p>
 
           <div class="social-links">
