@@ -1,6 +1,7 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://milesclipmaker.fr/$1 [R,L]
+RewriteCond %{REQUEST_URI} !
+RewriteRule ^(.*)$ https://milesclipmaker.fr/$1 [R=301,L]
 
 ErrorDocument 404 /404.php
 
@@ -56,3 +57,16 @@ deny from all
 
 # protection de la lecture des répertoires
  Options -Indexes
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/shtml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule> 

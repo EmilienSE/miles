@@ -6,7 +6,7 @@
 
     <div class="section-header">
       <h2>Les tarifs</h2>
-      <p>Parce que chaque projet est différent, MILES s'adapte à vos besoins et vous propose un forfait basique.</p>
+      <p>Parce que chaque projet est différent, MILES vous propose un forfait basique.</p>
       <p>Vous avez ensuite le choix entre différentes options, selon votre projet.</p>
     </div>
 

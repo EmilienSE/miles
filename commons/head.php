@@ -2,7 +2,7 @@
 <title>MILES Clipmaker - Vidéaste sur Angers et ses alentours</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="miles, clipmaker, videaste, vidéaste, production, angers, nantes, le mans, audiovisuel, mariage, séminaire, wei, week-end d'intégration, film, réalisateur, montage, cadrage, sons, clips, école, bde, institutionnel, court métrage, long métrage, scenario" name="keywords">
-<meta content="MILES Clipmaker réalise votre vidéo sur Angers et ses alentours" name="description">
+<meta content="Un film institutionnel ? Un clip de musique ? Une aftermovie ? Un évènement d'entreprise ? MILES Clipmaker réalise votre vidéo sur Angers et ses alentours." name="description">
 <meta name="designer" content="Emilien SECHILARIU, esechilariu@yahoo.fr">
 <meta name="publisher" content="Emilien SECHILARIU">
 <meta name="language" content="FR">
@@ -64,7 +64,8 @@
   "sameAs" : [
    "https://www.facebook.com/milesclipmaker",
    "https://www.instagram.com/milesclipmaker",
-   "https://www.linkedin.com/company/miles-clipmaker"
+   "https://www.linkedin.com/company/miles-clipmaker",
+   "https://twitter.com/MClipmaker"
   ],
   "address" : {
     "@type" : "PostalAddress",

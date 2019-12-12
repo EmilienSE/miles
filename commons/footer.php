@@ -46,6 +46,7 @@
             <a href="https://www.youtube.com/channel/UCw_w4sR3u6Uhs5K2ckJtqdQ" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://www.instagram.com/milesclipmaker/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/company/miles-clipmaker" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/MClipmaker" target="_blank"><i class="fab fa-twitter"></i></a>
           </div>
 
         </div>
