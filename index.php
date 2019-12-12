@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html amp lang="fr">
+<html lang="fr">
 
 <head>
   <?php include('commons/head.php'); ?>
