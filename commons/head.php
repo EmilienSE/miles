@@ -8,7 +8,7 @@
 <meta name="language" content="FR">
 <meta name="category" content="Vidéaste">
 <meta name="identifier-URL" content="https://milesclipmaker.fr/">
-<meta property="og:title" content="MILES Clipmaker - Vidéaste sur Angers et ses alentours">
+<meta property="og:title" content="MILES Clipmaker - Réalisation de vidéos sur Angers et ses alentours">
 <meta property="og:site_name" content="MILES Clipmaker">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://milesclipmaker.fr/">
