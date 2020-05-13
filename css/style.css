@@ -1242,7 +1242,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 0.7;
 }
 
-#tarifs .card .btn {
+#tarifs .btn {
+  margin-top: 30px;
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1252,7 +1253,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#tarifs .card .btn:hover {
+#tarifs .btn:hover {
   background-color: #e0072f;
 }
 
